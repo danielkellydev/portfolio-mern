@@ -2,6 +2,15 @@ import React from 'react'
 import SectionTitle from '../../components/SectionTitle'
 
 function About() {
+    const skills = [
+        "Javascript",
+        "React",
+        "Node",
+        "Express",
+        "MongoDB",
+        "Python",
+        "Flask"
+    ]
   return (
     <div>
         <SectionTitle title="About Me" />
@@ -21,6 +30,17 @@ function About() {
                 <p className='text-white'>
                 I believe that software development is not just about writing lines of code, but about creating experiences that leave a lasting impression. Whether it's crafting captivating websites, conjuring up user-friendly apps, or bringing ideas to life through elegant designs, I'm constantly seeking new ways to blend functionality with a sprinkle of whimsy. So, if you're ready to dive into a pixel-perfect adventure and explore the limitless possibilities of the digital realm, grab your virtual gear, and let's embark on a coding escapade together!
                 </p>
+            </div>
+        </div>
+
+        <div className='py-5'>
+            <h1 className='text-tertiary text-xl'>Here are a few technologies I've been working with recently:</h1>
+            <div className='flex flex-wrap gap-10 mt-5'>
+                {skills.map((skill, index) => (
+                    <div className='border border-tertiary py-3 px-10'> 
+                        <h1 className='text-tertiary'>{skill}</h1>
+                    </div>
+                ))}
             </div>
         </div>
     </div>
