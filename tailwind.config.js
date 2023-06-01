@@ -10,6 +10,17 @@ module.exports = {
         "white" : "#EFF1F3"
       }
     },
+    screens: {
+
+      'lg': '1024px',
+      // => @media (min-width: 2024px) { ... }
+
+      'sm': '600px',
+      // => @media (min-width: 640px) { ... }
+
+
+
+    }
   },
   plugins: [],
 }
