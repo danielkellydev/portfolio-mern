@@ -3,6 +3,7 @@ import React from 'react'
 function Intro() {
   return (
     <div className='h-[80vh] bg-primary flex flex-col items-start justify-center gap-8 py-10'>
+        <h1 className='text-primary text-5xl flex justify-center font-bold border-2 p-5 bg-secondary hover:bg-tertiary hover:scale-110 hover:text-secondary'>UNDER CONSTRUCTION!</h1>
         <h1 className='text-white'>Hi, I am</h1>
         <h1 className='lg:text-7xl text-3xl text-secondary font-semibold'>Daniel Kelly</h1>
         <h1 className='lg:text-7xl text-3xl text-white font-semibold'>I build things for the web.</h1>
