@@ -3,6 +3,7 @@ import Header from "../../components/Header";
 import Intro from "./Intro";
 import About from "./About";
 import Experience from "./Experience";
+import Projects from "./Projects";
 
 function Home() {
     return (
@@ -12,6 +13,7 @@ function Home() {
                 <Intro/>
                 <About/>
                 <Experience/>
+                <Projects/>
             </div>
         </div>
     )

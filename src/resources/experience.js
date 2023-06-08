@@ -4,6 +4,7 @@ export const experience = [
     company: 'Tiger Therapies',
     title: 'Founder, Herbalist',
     period: '2017-Present',
+    // eslint-disable-next-line no-multi-str
     description: 'Successfully managed and self-promoted my own business for six years\
     Consulted with clients to discuss their health issues and prescribed specific herbal remedies\
     Maintained and updated the business\'s bookings and e-commerce website (Wordpress)\
@@ -16,6 +17,14 @@ export const experience = [
     title: 'Freelance developer',
     period: '2023-Present',
     description: 'Successfully managed and self-promoted my own business for six years Consulted with clients to discuss their health issues and prescribed specific herbal remedies Maintained and updated the business\'s bookings and e-commerce website (Wordpress) Developed rapport with clients, fostering an environment of trust and safety to discuss sensitive issues Formulate plans, working iteratively to achieve client\'s goals'
+},
+{
+    _id: '3',
+    company: 'Other Job',
+    title: 'Freelance developer',
+    period: '2023-Present',
+    description: 'Successfully managed and self-promoted my own business for six years Consulted with clients to discuss their health issues and prescribed specific herbal remedies Maintained and updated the business\'s bookings and e-commerce website (Wordpress) Developed rapport with clients, fostering an environment of trust and safety to discuss sensitive issues Formulate plans, working iteratively to achieve client\'s goals'
 }
+
 
 ]
